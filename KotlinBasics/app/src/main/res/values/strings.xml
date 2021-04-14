@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Kotlin Basics</string>
+    <string name="paragraph_variable1">Variable adalah container untuk menyimpan nilai data.\nBerikut ini adalah contoh jenis-jenis variables di kotlin:\n\n
+<b>String</b> - Menyimpan text, contohnya adalah \"Hello World\", nilai String diawali dan diakhiri dengan 2 tanda petik\n
+<b>Int</b> - Menyimpan integer (nilai penuh), tanpa desimal, seperti 21 dan -57\n
+<b>Float</b> - Menyimpan angka desimal, contohnya adalah 21.57 dan -100.00\n
+        <b>Boolean</b> - Menyimpan 2 kondisi, yaitu true atau false</string>
+    <string name="paragraph_variable2">Untuk mendeklarasikan variable kita bisa menggunakan <b>Val</b> atau <b>var</b> lalu memberikan nilainya. Berikut ini adalah contohnya:\n\n
+        <b>val a : String = \"Selamat siang!\"</b>\n
+        a adalah nama variable, String adalah type variablenya, dan "Selamat siang!" adalah nilai variablenya.\n\n
+        <b>var b : Int = 18</b>\n
+        b adalah nama variable, Int adalah type variablenya, dan 18 adalah nilai variable nya.\n\n
+        Perbedaan <b>val</b> dan <b>var</b> adalah <b>val</b> digunakan untuk memberi variable dengan nilai yang tidak bisa diganti, sedangkan <b>var</b> digunakan untuk memberi variable dengan nilai yang dapat berubah. Contohnya seperti ini:\n\n
+        <b>var c : Int = 21\n
+            c = 100</b>\n\n
+        Pada contoh diatas variable c yang awalnya bernilai 21 lalu diganti nilainya dengan 100, apabila kita menggunakan <b>val</b> kita tidak bisa mengganti nilai variable c.\n\n\n
+    </string>
+
+    // Kotlin Print
+
+    <string name="paragraph_print1">Print adalah salah satu cara untuk menghasilkan output yang berupa String atau teks. Berikut ini adalah contohnya:\n\n
+    <b>print(\"Hello World\")</b>\n\n
+    Maka output yang dihasilkan adalah: \n\n
+    Hello World\n\n
+    <b>print(\"Perkenalkan nama saya \")</b>\n
+        <b>print(\"Mushafa\")</b>\n\n
+    Maka output yang dihasilkan adalah : \n\n
+    Perkenalkan nama saya Mushafa\n\n
+    Ada juga perintah <b>println</b> yang juga menghasilkan output berupa String tetapi juga menambahkan baris baru. Contohnya :\n\n
+    <b>println(\"Perkenalkan nama saya \")</b>\n
+    <b>println(\"Mushafa\")</b>\n\n
+    Maka Output yang dihasilkan adalah : \n\n
+    Perkenalkan nama saya \n
+    Mushafa\n\n
+    Kita juga bisa mengeprint variable. Contohnya :\n\n
+        <b>val a : Int = 2021</b>\n
+    <b>print(a)</b>\n\n
+    Maka Output yang dihasilkan adalah : \n\n
+    2021\n\n\n</string>
+
+    //operators
+
+    <string name="paragraph_operators1">Oerators digunakan untuk melakukan operasi variable atau nilai-nilai. Di Kotlin terdapat beberapa jenis oerators, yaitu:\n\n
+        <b>Arithmetic operators\n
+Assignment operators\n
+Comparison operators\n
+Logical operators\n
+            Bitwise operators</b></string>
+    <string name="paragraph_operators2">Arithmetic operators adalah operator yang digunakan untuk melakukan operasi matematika yang umum. Contohnya adalah:\n\n
+    <b>var int a = 50\n
+    var int b = 100 + a\n
+    print(b)</b>\n\n
+    Maka ouput yang dihasilkan adalah <b>150</b> karena b adalah 100 ditambah a, dan a adalah 50.\n\n
+    Arithmetic operators yang lain adalah :\n</string>
+    <string name="paragraph_operators3">Assignment operators digunakan untuk memberi nilai pada variable. Operator ini ditandai dengan tanda sama dengan (=).\n\n
+    <b>val nama = mushafa</b>\n\n
+    Variable nama diberi nilai mushafa menggunakan tanda sama dengan (=).\n
+    Assignment operators yang lain adalah :\n</string>
+    <string name="paragraph_operators4">Comparison operators digunakan untuk membandingkan 2 nilai variable. Comparison operators antara lain adalah :\n </string>
+    <string name="paragraph_operators5">Logical operators digunakan untuk menentukan logika antar variable atau nilai. Logical operators antar lain adalah :\n</string>
+</resources>
